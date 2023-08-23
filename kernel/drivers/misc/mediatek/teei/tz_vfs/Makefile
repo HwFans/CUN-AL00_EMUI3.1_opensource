@@ -1,0 +1,2 @@
+obj-$(CONFIG_NEUSOFT_VFS_DRIVER) += vfsFun.o
+EXTRA_CFLAGS += -D DEBUG_DO -fno-pic 
